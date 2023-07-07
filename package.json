@@ -1,0 +1,21 @@
+{
+  "name": "vite-8thwall-vps-three-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-basic-ssl": "^0.1.2",
+    "vite": "^3.2.3",
+    "vite-plugin-glsl": "^0.5.4"
+  },
+  "dependencies": {
+    "@turf/turf": "^6.5.0",
+    "three": "^0.147.0",
+    "vconsole": "^3.15.1"
+  }
+}
